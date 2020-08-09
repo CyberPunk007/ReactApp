@@ -1,0 +1,49 @@
+{
+  "name": "travel-guide-app",
+  "version": "v1.22.4",
+  "private": true,
+  "dependencies": {
+    "aos": "^2.3.4",
+    "axios": "^0.18.1",
+    "express": "^4.17.1",
+    "jquery": "^3.5.0",
+    "lodash": "^4.17.15",
+    "ol": "^6.2.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.6.3",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^3.4.1",
+    "react-spinners": "^0.5.4",
+    "tachyons": "^4.11.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "terser": "^3.14.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
+    "eject": "react-scripts eject"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zero-to-mastery/travel-guide.git"
+  },
+  "author": "ZTM",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zero-to-mastery/travel-guide/issues"
+  },
+  "homepage": "https://zero-to-mastery.github.io/travel-guide/",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
